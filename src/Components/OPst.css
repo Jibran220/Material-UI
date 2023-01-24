@@ -1,0 +1,41 @@
+.app{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+justify-content:center ;
+align-items: center;
+
+}
+.card{
+    height: 500px;
+   
+
+
+background: linear-gradient(108,403deg,rgba(197, 197, 197, 0.11)102.95%);
+
+    border: 1px   #000000;
+
+
+
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.21)
+;
+border-radius: 25px;
+
+backdrop-filter: blur(20px);
+animation: MoveUpDown 1s linear infinite;
+position: absolute;
+
+}
+@keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+  }         
